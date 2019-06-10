@@ -13,7 +13,8 @@ print("YOU CHOSE:", user_choice)
 
 
 if user_choice in ["rock", "paper", "scissors"]:
-    print("Valid")
+    pass
+    # print("Valid")
 else:
     print("Invalid selection, please try again")
     exit() 
