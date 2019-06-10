@@ -12,18 +12,20 @@ print("YOU CHOSE:", user_choice)
 
 #Validate Inputs
 
+options= ["rock", "paper", "scissors"]
 
-if user_choice in ["rock", "paper", "scissors"]:
-    pass
+# if user_choice in ["rock", "paper", "scissors"]:
+#     pass
     # print("Valid")
-else:
+# else:
+if user_choice not in options: 
     print("Invalid selection, please try again")
     exit() 
 #Generate Computer Selection
 
 print("Generating...")
 
-computer_choice = random.choice(["rock", "paper", "scissors"])
+computer_choice = random.choice(options) 
 
 print("_________")
 print("Generating...")
