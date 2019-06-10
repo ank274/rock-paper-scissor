@@ -1,5 +1,6 @@
 #game.py
 
+import random 
 print("Rock, Paper, Scissors, Shoot!") #this is also a comment
 
 #Capture Inputs- create a variable using input function
@@ -22,6 +23,11 @@ else:
 
 print("Generating...")
 
+computer_choice = random.choice(["rock", "paper", "scissors"])
+
+print("_________")
+print("Generating...")
+print("computer_choice:", computer_choice)
 
 #Determine the Winner
 
